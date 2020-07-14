@@ -8,8 +8,8 @@ https://coral.ai/docs/accelerator/get-started/#1a-on-linux
 
 
 ## Video Detection Inference 
- (replace ssd_mobilenet_v2_coco_quant_postprocess_edgetpu.tflite with any other model name from models folder)
 python video_detection.py --model models/ssd_mobilenet_v2_coco_quant_postprocess_edgetpu.tflite --labels models/coco_labels.txt --video videos/cars.mp4 
+ -- (replace ssd_mobilenet_v2_coco_quant_postprocess_edgetpu.tflite with any other model name from models folder)
 
 ## Image Detection Inference
 python image_detection.py --model models/ssd_mobilenet_v2_coco_quant_postprocess_edgetpu.tflite --labels models/coco_labels.txt --image images/parrot.jpg
